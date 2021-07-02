@@ -1,0 +1,1858 @@
+dn: OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: organizationalUnit
+objectClass: top
+ou: Organizational
+
+dn: OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: organizationalUnit
+objectClass: top
+ou: Local
+
+dn: CN=Ceramics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Ceramics Teachers
+managedBy: CN=Fired Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Ceramics Pottery Wheel,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser Teachers
+managedBy: CN=Laser Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Laser 101 Thunder Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Laser 102 Zing Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Laser Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Laser Fusion Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Shark Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Shark Lathe
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry Casting Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Casting Quiz Pass
+managedBy: CN=Jewelry Casting Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Digital Media Local Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Digital Media Local Admins
+managedBy: CN=Digital Media Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Community Grid Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Community Grid Admins
+description: Grants sudo access on Community Grid services
+managedObjects: CN=pprlxcompute-01,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=pprlxcompute-02,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=pprlxcompute-03,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxcompute-01,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxcompute-02,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxcompute-03,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+
+dn: CN=PRLXJUMP Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXJUMP Admins
+description: Grants sudo access on PRLXJUMP
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRLXPBX1 Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXPBX1 Admins
+description: Grants sudo access on PRLXPBX1
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRLXSCI Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXSCI Admins
+description: Grants sudo access on PRLXSCI01
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRLXTOOLLOGS Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXTOOLLOGS Admins
+description: Grants sudo access on PRLXTOOLLOGS
+
+dn: CN=PRLXPBX2 Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXPBX2 Admins
+description: Grants sudo access on PRLXPBX2
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRLXUTIL Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLXUTIL Admins
+description: Grants sudo access on PRLXUTIL
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=FILES Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: FILES Admins
+description: Grants sudo access on FILES, PRLXFIL01, PRLXFIL02
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRWCAM Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRWCAM Admins
+description: Grants administrator access on PRWCAM01 and PRWCAM02
+
+dn: CN=BLUEIRISFILES,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: BLUEIRISFILES
+
+dn: CN=OpenCast Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: OpenCast Admins
+description: Grants sudo access on PRLXOCAST machines
+managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=PRLX3DFAB Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: PRLX3DFAB Admins
+description: Grants sudo access on PRLX3DFAB
+
+dn: CN=JUMP Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: JUMP Admins
+description: Grants administrator access on JUMP
+
+dn: CN=Dye Sub Admin Access,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Dye Sub Admin Access
+
+dn: CN=LASER Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: LASER Admins
+description: Grants admin access on Laser workstations
+
+dn: CN=Metal Plasma CNC Local Logins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Plasma CNC Local Logins
+
+dn: CN=3D NextEngine Scanner,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D NextEngine Scanner
+managedBy: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Advanced Spindle Turning 1,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Advanced Spindle Turning 1
+managedBy: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=DM VR Headset,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: DM VR Headset
+
+dn: CN=Machine Shop Haas Supervisors,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas Supervisors
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Advanced Spindle Turning 2,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Advanced Spindle Turning 2
+managedBy: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Tubing Bender,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Tubing Bender
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Fiberarts,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Fiberarts
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Tubing Notcher,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Tubing Notcher
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=metal shop press brake,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: metal shop press brake
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Automotive 101 (Safety),OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Automotive 101 (Safety)
+description: Qualfied to use Automotive area and tools
+managedBy: CN=Automotive Lift Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Printer Teachers
+description: Qualified to teach 3D Printer classes
+managedBy: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Printer Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Printer Elegoo Resin,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Printer Form2,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Printer NinjaFlex,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Rostock PLA Printer,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Vacuum Former,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Electrical Room Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Electrical Room Access
+description: Grants access to the electrical room
+managedBy: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Storage Closet Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Storage Closet Access
+description: Grants access to the storage closet
+managedBy: CN=Erik Smith,OU=Members,DC=dms,DC=local
+
+dn: CN=Server Room Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Server Room Access
+description: Grants access to the server room
+managedBy: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Haas Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas Teachers
+
+dn: CN=Metal Shop CNC Plasma Cutter,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop CNC Plasma Cutter
+description: Old PlasmaCAM (Retired)
+
+dn: CN=3D Rostock PLA Printer,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Rostock PLA Printer
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Induction Forge,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Induction Forge
+
+dn: CN=3D Vacuum Former,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Vacuum Former
+description: Qualified to use the Vacuum Former
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Welding MIG Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Welding MIG Basics
+description: Approved for MIG Welding
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Vacuum Former Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Vacuum Former Teachers
+description: Qualified to teach the Vacuum Former
+
+dn: CN=Welding Safety,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Welding Safety
+description: Approved for Welding Safety
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Welding TIG Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Welding TIG Basics
+description: Approved for TIG Welding
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Sherline CNC Class,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Sherline CNC Class
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Printer NinjaFlex,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Printer NinjaFlex
+description: Qualified to print on the Poly Printers with Ninja Flex
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Infrastructure Secure Share Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Infrastructure Secure Share Access
+managedBy: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=APM Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Central Logging Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=CICD Users,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Portainer Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Metaza Engraver,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Metaza Engraver
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Members
+managedBy: CN=WHMCS Service,OU=Service,OU=Users,OU=Admin,DC=dms,DC=local
+memberOf: CN=JUMP Remote Desktop Users,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Secure WiFi Access,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Haas Trained Legacy,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas Trained Legacy
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Haas 2 Practical,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas 2 Practical
+description: At machine practical training
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Haas Operators,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas Operators
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Haas 1 CAD CAM,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Haas 1 CAD CAM
+description: Classroom Haas CAD/CAM
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Bridgeport,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Bridgeport
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=.Needs Repair,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: .Needs Repair
+description: l
+
+dn: CN=CA Vinyl Cutter,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Vinyl Cutter
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Airbrush,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Airbrush
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Leatherworking,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Leatherworking
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Laser 102 Zing Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser 102 Zing Basics
+description: Approved to use the Zing Laser
+managedBy: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Clausing Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Clausing Lathe
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Laser 101 Thunder Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser 101 Thunder Basics
+description: Approved to use the Thunder Lasers
+managedBy: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Ceramics Pottery Wheel,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Ceramics Pottery Wheel
+managedBy: CN=Ceramics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA CNC Embroidery,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA CNC Embroidery
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Sewing Fabric,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Sewing Fabric
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Secure WiFi Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Secure WiFi Access
+description: Grants access to DMS Secure SSID
+
+dn: CN=Machine Shop Sherline Mill,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Sherline Mill
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Belt Grinder,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Belt Grinder
+
+dn: CN=CA Serger,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Serger
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Teachers
+managedBy: CN=Metal Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Metal Shop Dynatorch CNC,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Metal Shop Grinders,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Metal Shop Large Oven,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=metal shop press brake,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Metal Shop Tubing Bender,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Welding MIG Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Welding Safety,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Welding Stick Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Welding TIG Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Sewing Leather,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Sewing Leather
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=LMS_3D_PolyPrinterBasics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: LMS_3D_PolyPrinterBasics
+
+dn: CN=Machine Shop Intro,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Intro
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=LMS_Laser_LaserBasics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: LMS_Laser_LaserBasics
+
+dn: CN=Woodshop Router Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Router Basics
+description: Qualified for non-CNC Router
+managedBy: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Project Storage Admins,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Project Storage Admins
+
+dn: CN=Woodshop 1,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop 1
+description: Safety, Miter and Panel Saw
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=LMS_Laser_Thunder,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: LMS_Laser_Thunder
+
+dn: CN=Automotive Lift Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Automotive Lift Instructors
+description: Auto Lift Instructors
+managedBy: CN=Automotive Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Automotive 101 (Safety),OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Automotive 102 (Lift Training),OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop 2,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop 2
+description: Milling Tools
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Teachers
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Bridgeport Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Bridgeport,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Clausing Lathe Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Clausing Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Shark Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Sherline CNC Class,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Sherline CNC,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Sherline Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Sherline Mill,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Tubing Notcher,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop 3,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop 3
+description: Shaping Tools
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Storage Bins,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Storage Bins
+description: Small Storage Bins
+
+dn: CN=Woodshop 4,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop 4
+description: Bandsaw and Drill Press
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry HydroFlux,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry HydroFlux
+
+dn: CN=Printmaking Admins,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Printmaking Admins
+managedBy: CN=Printmaking Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Laser Fusion Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser Fusion Basics
+managedBy: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Automotive 102 (Lift Training),OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Automotive 102 (Lift Training)
+description: Qualified for Automotive Lift
+managedBy: CN=Automotive Lift Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Large Oven,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Large Oven
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Wide-Format Printer,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Wide-Format Printer
+managedBy: CN=Steven Reeves,OU=Members,DC=dms,DC=local
+
+dn: CN=CA DyeSub Printer,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA DyeSub Printer
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Dynatorch CNC,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Dynatorch CNC
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Metal Plasma CNC Local Logins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Printer Form2,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Printer Form2
+description: Qualified to print on the FormLabs Form2
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Administration,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Administration
+managedObjects: CN=vcc-matrix-02,OU=VCC,OU=Workstations,OU=Machines,DC=dms,DC=local
+
+dn: CN=3D Printer Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Printer Basics
+description: Qualified to print on the Poly Printers
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Industrial Leather Sewing,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Industrial Leather Sewing
+
+dn: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Basics
+description: Approved for  Woodshop Use
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Lathe Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Lathe Basics
+description: Approved for Wood Lathe
+managedBy: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Financial Reporting,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Financial Reporting
+
+dn: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Admins
+managedBy: CN=Woodshop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Advanced Spindle Turning 1,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Advanced Spindle Turning 2,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Router Basics,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Multicam Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Glassworks Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Glassworks Committee Chair
+managedObjects: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Printmaking Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Printmaking Committee Chair
+managedObjects: CN=Printmaking Admins,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Laser Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser Committee Chair
+managedObjects: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=LS-D02,OU=Laser Printing,OU=Workstations,OU=Machines,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Creative Arts Committee Chair
+managedObjects: CN=CA Airbrush,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA CNC Embroidery,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA DyeSub Printer,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Fiberarts,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Leatherworking,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Metaza Engraver,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Serger,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Sewing Fabric,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Sewing Leather,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Shapeoko Users,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CA Vinyl Cutter,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=user1,ou=Members,dc=dms,dc=local
+cn: 3D Fabrication Chair
+managedObjects: CN=3D Computer Administrators,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D NextEngine Scanner,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=PRWMULTICAM-VD,OU=Decommissioned,OU=Servers,OU=Machines,DC=dms,DC=local
+memberOf: CN=3D Computer Administrators,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=PRLX3DFAB Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Logistics Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Logistics Committee Chair
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Committee Chair
+managedObjects: CN=Machine Shop Haas 1 CAD CAM,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Haas 2 Practical,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Haas Operators,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Haas Supervisors,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Haas Trained Legacy,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Intro,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Shapeoko Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=MS-A01,OU=Machine Shop,OU=Workstations,OU=Machines,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=VECTOR Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: VECTOR Committee Chair
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Fired Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Fired Arts Committee Chair
+managedObjects: CN=Ceramics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Digital Media Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Digital Media Committee Chair
+managedObjects: CN=Digital Media Local Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Digital Media Locker,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=DM-D01,OU=Digital Media,OU=Workstations,OU=Machines,DC=dms,DC=local
+managedObjects: CN=DM-D02,OU=Digital Media,OU=Workstations,OU=Machines,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Public Relations Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Public Relations Committee Chair
+managedObjects: CN=WordPress Editors,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Financial Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Financial Committee Chair
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Classroom Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Classroom Committee Chair
+managedObjects: CN=prlxocast1,OU=Classroom,OU=Servers,OU=Machines,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Blacksmith Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Blacksmith Committee Chair
+managedObjects: CN=Blacksmith Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Aerospace Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Aerospace Committee Chair
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Committee Chair
+managedObjects: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Secretary,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Secretary
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Voting Members,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Treasurer,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Treasurer
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Finance Admins,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Financial Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Thycotic Finance,OU=Groups,OU=Admin,DC=dms,DC=local
+memberOf: CN=Thycotic Gov,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=President,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: President
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Thycotic Gov,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=Finance Admins,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Finance Admins
+
+memberOf: CN=Thycotic Finance,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Officers
+
+memberOf: CN=Thycotic Finance Vendors,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=Hackerspace Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Hackerspace Committee Chair
+managedObjects: CN=motherboard,OU=Production,OU=Undercloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxcompute05,OU=Production,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=PRLXCOMPUTE06,OU=Preproduction,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=VCC Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Community Grid Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Board of Directors
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Calendar Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Honorarium Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Jewelry Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=President,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Secretary,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Software Development Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Treasurer,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Thycotic Finance Vendors,OU=Groups,OU=Admin,DC=dms,DC=local
+memberOf: CN=Thycotic Gov,OU=Groups,OU=Admin,DC=dms,DC=local
+
+dn: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Committee Chairs
+
+dn: CN=Jewelry Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Committee Chair
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Jewelry Casting Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Lapidary Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Civic Hacking Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Civic Hacking Committee Chair
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Committee Chair
+managedObjects: CN=VCarve Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Multicam Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Electronics and Robotics Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Electronics and Robotics Committee Chair
+managedObjects: CN=Electronics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Infrastructure Committee Chair
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=APM Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Billing Support Team,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Central Logging Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=CICD Users,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Electrical Room Access,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Infrastructure Secure Share Access,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=MakerManager Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Moodle Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Moodle Content Creators,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Portainer Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Portainer Users,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=prlxcicd01,OU=Virtual Machines,OU=Infrastructure,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=PRLXCOMPUTE01,OU=Production,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=PRLXCOMPUTE02,OU=Preproduction,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=PRLXCOMPUTE03,OU=Production,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=PRLXCOMPUTE04,OU=Preproduction,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxfirewall,OU=Physical Machines,OU=Infrastructure,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxjump-02,OU=Jump Servers,OU=Virtual Machines,OU=Infrastructure,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prlxmontoring01,OU=Virtual Machines,OU=Infrastructure,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=prwcicd02,OU=Virtual Machines,OU=Infrastructure,OU=Servers,OU=Machines,DC=dms,DC=local
+managedObjects: CN=Server Room Access,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Wiki SysOp,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: CN=WordPress Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+managedObjects: DC=dms,DC=local
+memberOf: CN=APM Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Central Logging Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=CICD Users,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Officers,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Portainer Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+
+dn: CN=Hatcher's Armory Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Hatcher's Armory Committee Chair
+
+dn: CN=Software Development Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Software Development Committee Chair
+mail: software@dallasmakerspace.org
+managedBy: CN=Board of Directors,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=COMPUTINGLAB,OU=Skunkworks,OU=Overcloud,OU=VCC,OU=Servers,OU=Machines,DC=dms,DC=local
+
+dn: CN=Automotive Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Automotive Committee Chair
+managedObjects: CN=Automotive Lift Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Billing Support Team,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Billing Support Team
+description: NO IDEA WHAT THIS IS FOR
+managedBy: CN=Infrastructure Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+memberOf: CN=CA Leatherworking,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=CA Shapeoko Users,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Machine Shop Bridgeport,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=VCarve Users,OU=Applications,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Committee Chair
+managedObjects: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Committee Chairs,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=MotorSports Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: MotorSports Committee Chair
+
+dn: CN=Roaming Profile Computers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Roaming Profile Computers
+
+dn: CN=Machine Shop Shapeoko XXL CNC,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Shapeoko XXL CNC
+managedBy: CN=Machine Shop Shapeoko Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Multicam CNC Router,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Multicam CNC Router
+description: Qualified on the Multicam CNC Router
+managedBy: CN=Woodshop Multicam Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Filastruder,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Filastruder
+
+dn: CN=Machine Shop Shapeoko Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Shapeoko Teachers
+managedBy: CN=Machine Shop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Machine Shop Shapeoko XXL CNC,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Expansion Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Expansion Access
+
+dn: CN=Camera Files,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Camera Files
+
+dn: CN=3D Printer Elegoo Resin,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Printer Elegoo Resin
+description: Qualified to use the Elegoo Resin Printers
+managedBy: CN=3D Printer Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Clausing Lathe Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Clausing Lathe Quiz Pass
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Bridgeport Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Bridgeport Quiz Pass
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=3D Computer Administrators,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: 3D Computer Administrators
+managedBy: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Voting Members,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Voting Members
+description: Voting Members
+managedBy: CN=Secretary,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=netbox,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: netbox
+
+dn: CN=Garage Door Controller Access,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Garage Door Controller Access
+description: Provides access to authenticate to the Garage Door Controller
+managedBy: CN=Stan Simmons104,OU=Members,DC=dms,DC=local
+
+dn: CN=Laser Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Laser Basics
+description: Approved to use the Lasers
+managedBy: CN=Laser Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Laser 101 Thunder Basics,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Laser 102 Zing Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=CA Shapeoko Users,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: CA Shapeoko Users
+description: Shapeoko Users
+managedBy: CN=Creative Arts Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry Casting,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Casting
+managedBy: CN=Jewelry Casting Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry Wax Resin Printer,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Wax Resin Printer
+managedBy: CN=Jewelry Casting Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Basics Online Quiz,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Basics Online Quiz
+managedBy: CN=Woodshop Basics Online Quiz,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Basics Online Quiz,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop CNC Online Quiz,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop CNC Online Quiz
+managedBy: CN=Woodshop Multicam Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Fume Hood,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Fume Hood
+managedBy: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Basics
+
+dn: CN=Machine Shop Sherline Lathe,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Sherline Lathe
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Machine Shop Sherline CNC,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Machine Shop Sherline CNC
+managedBy: CN=Machine Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=VCC Instructors,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: VCC Instructors
+description: VCC Instructors
+mail: vcc+instructors@dallamakerspace.org
+managedBy: CN=Hackerspace Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+memberOf: CN=Community Grid Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Metal Shop Grinders,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Metal Shop Grinders
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Teachers
+managedBy: CN=Science Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Science Autoclave,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Science Centrifuges,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Science Fume Hood,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Science Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Centrifuges,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Centrifuges
+managedBy: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=GlassWorks Microwave,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: GlassWorks Microwave
+managedBy: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Kilns
+managedBy: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Digital Media Locker,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Digital Media Locker
+managedBy: CN=Digital Media Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Science Autoclave,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Science Autoclave
+managedBy: CN=Science Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Blacksmith Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Blacksmith Teachers
+managedBy: CN=Blacksmith Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Blacksmith Mobile Forging,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Jewelry Casting Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Jewelry Casting Teachers
+managedBy: CN=Jewelry Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Jewelry Casting Quiz Pass,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Jewelry Casting,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Jewelry Wax Resin Printer,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Lapidary Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Lapidary Teachers
+managedBy: CN=Jewelry Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Blacksmith Mobile Forging,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Blacksmith Mobile Forging
+description: Qualified for Mobile Forging
+managedBy: CN=Blacksmith Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Glassworks Teachers
+managedBy: CN=Glassworks Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Glassworks Cold Working Tools,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Glassworks Large Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=GlassWorks Microwave,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Glassworks Small Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Storage Locker Admins,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Storage Locker Admins
+description: Admins for Storage Lockers
+
+dn: CN=Glassworks Large Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Glassworks Large Kilns
+managedBy: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Glassworks Small Kilns,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Glassworks Small Kilns
+managedBy: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Teachers
+managedBy: CN=Woodshop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop 1,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop 2,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop 3,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop 4,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Basics,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Lathe Basics,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Glassworks Cold Working Tools,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Glassworks Cold Working Tools
+managedBy: CN=Glassworks Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Woodshop Multicam Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Woodshop Multicam Teachers
+managedBy: CN=Woodshop Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop CNC Online Quiz,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Woodshop Multicam CNC Router,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Electronics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Electronics Teachers
+managedBy: CN=Electronics and Robotics Committee Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
+managedObjects: CN=Electronics PCB Mill,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Welding Stick Basics,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Welding Stick Basics
+managedBy: CN=Metal Shop Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=Electronics PCB Mill,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: Electronics PCB Mill
+managedBy: CN=Electronics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
+
+dn: CN=RESIN Pressure and Vacuum Tools,OU=Security,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+cn: RESIN Pressure and Vacuum Tools

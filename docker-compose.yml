@@ -1,0 +1,38 @@
+version: '3'
+services:
+  openldap:
+    image: osixia/openldap:latest
+    container_name: openldap
+    volumes:
+      - /var/lib/ldap
+      - /etc/ldap/slapd.d
+      - /container/service/slapd/assets/certs/
+      - ./01-microsoft.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.0-microsoft.ldif
+      - ./02-tree.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.1-tree.ldif
+      - ./03-users.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.2-users.ldif
+      - ./04-committees.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.3-committees.ldif
+      - ./05-securitygroups.ldif://container/service/slapd/assets/config/bootstrap/ldif/99.4-groups.ldif
+    ports:
+      - "389:389"
+      - "636:636"
+    environment:
+      LDAP_ORGANISATION: Dallas Makerspace
+      LDAP_DOMAIN: dms.local
+      LDAP_BASE_DN: dc=dms,dc=local
+      LDAP_ADMIN_PASSWORD: Adm1n!
+      LDAP_CONFIG_PASSWORD: c0nfig
+      LDAP_BACKEND: mdb
+      LDAP_LOG_LEVEL: 481
+      CONTAINER_LOG_LEVEL: DEBUG
+    command: --copy-service --loglevel debug
+    hostname: "openldap"
+  phpldapadmin:
+    image: osixia/phpldapadmin:latest
+    container_name: phpldapadmin
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: "openldap"
+      PHPLDAPADMIN_HTTPS: "false"
+    ports:
+      - "8080:80"
+    depends_on:
+      - openldap

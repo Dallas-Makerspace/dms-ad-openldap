@@ -1,0 +1,42 @@
+#/Groups
+dn: ou=Groups,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Groups
+
+#/Users
+dn: ou=Users,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Users
+
+
+# /Groups/Applications
+dn: ou=Applications,ou=Groups,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Applications
+
+# /Admin
+dn: ou=Admin,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Admin
+
+# /Admin/Users
+dn: ou=Users,ou=Admin,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Users
+
+#/Members
+dn: ou=Members,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Members
+
+#/Groups/Security
+dn: ou=Security,ou=Groups,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Security

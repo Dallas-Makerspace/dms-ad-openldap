@@ -1,0 +1,29 @@
+## COMMITTEES
+dn: OU=Committees,OU=Groups,DC=dms,DC=local
+objectClass: organizationalUnit
+objectClass: top
+description: Committee Membership
+
+dn: CN=Digital Media,OU=Committees,OU=Groups,DC=dms,DC=local
+objectClass: groupOfNames
+objectClass: top
+member: CN=admin,dc=dms,dc=local
+cn: Digital Media
+
+dn: CN=Infrastructure,OU=Committees,OU=Groups,DC=dms,DC=local
+objectClass: groupOfNames
+objectClass: top
+member: CN=admin,dc=dms,dc=local
+cn: Infrastructure
+
+dn: CN=Science,OU=Committees,OU=Groups,DC=dms,DC=local
+objectClass: groupOfNames
+objectClass: top
+member: CN=admin,dc=dms,dc=local
+cn: Science
+
+dn: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
+objectClass: groupOfNames
+objectClass: top
+member: CN=admin,dc=dms,dc=local
+cn: Electronics
