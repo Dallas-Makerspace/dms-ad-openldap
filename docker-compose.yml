@@ -12,6 +12,7 @@ services:
       - ./03-users.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.2-users.ldif
       - ./04-committees.ldif:/container/service/slapd/assets/config/bootstrap/ldif/99.3-committees.ldif
       - ./05-securitygroups.ldif://container/service/slapd/assets/config/bootstrap/ldif/99.4-groups.ldif
+      - ./06-security.ldif://container/service/slapd/assets/config/bootstrap/ldif/99.5-security.ldif
     ports:
       - "389:389"
       - "636:636"
@@ -22,7 +23,7 @@ services:
       LDAP_ADMIN_PASSWORD: Adm1n!
       LDAP_CONFIG_PASSWORD: c0nfig
       LDAP_BACKEND: mdb
-      LDAP_LOG_LEVEL: 481
+      # LDAP_LOG_LEVEL: 481
       CONTAINER_LOG_LEVEL: DEBUG
     command: --copy-service --loglevel debug
     hostname: "openldap"

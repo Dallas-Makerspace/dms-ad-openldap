@@ -2,50 +2,95 @@
 # Password = password
 dn: cn=user1,ou=Members,dc=dms,dc=local
 cn: user1
+displayName: user1
 employeeID: 0000000001
 memberOf: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
 objectclass: top
-samaccountname: user1
+sAMAccountName: user1
 sn: user1
+mail: user1@dms.local
 userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: user1@dms.local
+UserAccountControl: 512
 
 # User 2
 # Password = password
 dn: cn=user2,ou=Members,dc=dms,dc=local
 cn: user2
+displayName: user2
 employeeID: 0000000002
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
 objectclass: top
-samaccountname: user2
+sAMAccountName: user2
 sn: user2
+mail: user2@dms.local
 userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: user2@dms.local
+UserAccountControl: 512
 
-# User 1
+# User 3
 # Password = password
 dn: cn=user3,ou=Members,dc=dms,dc=local
 cn: user3
+displayName: user3
 employeeID: 0000000003
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
 objectclass: top
-samaccountname: user3
+sAMAccountName: user3
 sn: user3
+mail: user3@dms.local
 userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: user3@dms.local
+UserAccountControl: 512
 
-# User 1
+# User 4
 # Password = password
 dn: cn=user4,ou=Members,dc=dms,dc=local
 cn: user4
+displayName: user4
 employeeID: 0000000004
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
 objectclass: top
-samaccountname: user4
+sAMAccountName: user4
 sn: user4
+mail: user4@dms.local
 userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: user4@dms.local
+UserAccountControl: 512
+
+# disabled user
+# Password = password
+dn: cn=disableduser,ou=Members,dc=dms,dc=local
+cn: disableduser
+displayName: Disabled User
+employeeID: 0000000000
+memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
+objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
+objectclass: user
+objectclass: top
+sAMAccountName: disableduser
+sn: disableduser
+mail: disableduser@dms.local
+userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: disableduser@dms.local
+UserAccountControl: 514
+
+# svcacct - password
+dn: cn=svcacct,ou=Applications,ou=Groups,dc=dms,dc=local
+cn: svcacct
+displayName: ServiceAccount
+objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
+objectclass: user
+objectclass: top
+sAMAccountName: svcacct
+sn: svcacct
+userPassword: {SSHA}EadtUhuwl73vtXqj5ns6I5BdRqabRDs=
+userPrincipalName: svcacct@dms.local
