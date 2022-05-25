@@ -8,6 +8,33 @@ objectClass: organizationalUnit
 objectClass: top
 ou: Local
 
+dn: CN=Calendar Super Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+member: cn=user2,ou=Members,dc=dms,dc=local
+cn: Calendar Super Admins
+
+dn: CN=Calendar Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+member: cn=user2,ou=Members,dc=dms,dc=local
+cn: Calendar Admins
+
+dn: CN=Honorarium Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+objectClass: group
+objectClass: top
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
+member: cn=admin,dc=dms,dc=local
+member: cn=user2,ou=Members,dc=dms,dc=local
+cn: Honorarium Admins
+
 dn: CN=Ceramics Teachers,OU=Security,OU=Groups,DC=dms,DC=local
 objectClass: group
 objectClass: top
@@ -141,6 +168,7 @@ member: cn=admin,dc=dms,dc=local
 cn: FILES Admins
 description: Grants sudo access on FILES, PRLXFIL01, PRLXFIL02
 managedBy: CN=Linux Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+
 
 dn: CN=PRWCAM Admins,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local
 objectClass: group
@@ -955,6 +983,7 @@ objectClass: top
 groupType: -2147483646
 objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
 member: cn=admin,dc=dms,dc=local
+member: cn=user2,ou=Members,dc=dms,dc=local
 cn: Financial Reporting
 
 dn: CN=Woodshop Admins,OU=Security,OU=Groups,DC=dms,DC=local

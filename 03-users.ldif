@@ -23,6 +23,10 @@ cn: user2
 displayName: user2
 employeeID: 0000000002
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
+memberOf: CN=Calendar Super Admins,OU=Groups,OU=Admin,DC=dms,DC=local
+memberOf: CN=Calendar Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Honorarium Admins,OU=Applications,OU=Groups,DC=dms,DC=local
+memberOf: CN=Financial Reporting,OU=Security,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
 objectclass: top

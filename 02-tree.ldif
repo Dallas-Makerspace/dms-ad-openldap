@@ -29,6 +29,12 @@ changetype: add
 objectclass: organizationalUnit
 ou: Users
 
+# /Admin/Groups
+dn: ou=Groups,ou=Admin,dc=dms,dc=local
+changetype: add
+objectclass: organizationalUnit
+ou: Groups
+
 #/Members
 dn: ou=Members,dc=dms,dc=local
 changetype: add
