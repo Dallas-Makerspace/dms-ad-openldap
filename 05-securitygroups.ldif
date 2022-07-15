@@ -506,6 +506,11 @@ objectClass: top
 groupType: -2147483646
 objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=dms,DC=local
 member: cn=admin,dc=dms,dc=local
+member: cn=user1,ou=Members,dc=dms,dc=local
+member: cn=user2,ou=Members,dc=dms,dc=local
+member: cn=user3,ou=Members,dc=dms,dc=local
+member: cn=user4,ou=Members,dc=dms,dc=local
+member: cn=disableduser,ou=Members,dc=dms,dc=local
 cn: Members
 managedBy: CN=WHMCS Service,OU=Service,OU=Users,OU=Admin,DC=dms,DC=local
 memberOf: CN=JUMP Remote Desktop Users,OU=Local,OU=Security,OU=Groups,DC=dms,DC=local

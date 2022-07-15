@@ -4,6 +4,7 @@ dn: cn=user1,ou=Members,dc=dms,dc=local
 cn: user1
 displayName: user1
 employeeID: 0000000001
+memberOf: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
 memberOf: CN=3D Fabrication Chair,OU=Organizational,OU=Security,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
@@ -22,6 +23,7 @@ dn: cn=user2,ou=Members,dc=dms,dc=local
 cn: user2
 displayName: user2
 employeeID: 0000000002
+memberOf: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 memberOf: CN=Calendar Super Admins,OU=Groups,OU=Admin,DC=dms,DC=local
 memberOf: CN=Calendar Admins,OU=Applications,OU=Groups,DC=dms,DC=local
@@ -44,6 +46,7 @@ dn: cn=user3,ou=Members,dc=dms,dc=local
 cn: user3
 displayName: user3
 employeeID: 0000000003
+memberOf: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
@@ -62,6 +65,7 @@ dn: cn=user4,ou=Members,dc=dms,dc=local
 cn: user4
 displayName: user4
 employeeID: 0000000004
+memberOf: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
@@ -80,6 +84,7 @@ dn: cn=disableduser,ou=Members,dc=dms,dc=local
 cn: disableduser
 displayName: Disabled User
 employeeID: 0000000000
+memberOf: CN=Members,OU=Security,OU=Groups,DC=dms,DC=local
 memberOf: CN=Electronics,OU=Committees,OU=Groups,DC=dms,DC=local
 objectcategory: cn=Person,cn=Schema,cn=Configuration,dc=dms,dc=local
 objectclass: user
