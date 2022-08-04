@@ -23,6 +23,7 @@ services:
       LDAP_ADMIN_PASSWORD: Adm1n!
       LDAP_CONFIG_PASSWORD: c0nfig
       LDAP_BACKEND: mdb
+      LDAP_TLS_VERIFY_CLIENT: try
       # LDAP_LOG_LEVEL: 481
       CONTAINER_LOG_LEVEL: DEBUG
     command: --copy-service --loglevel debug
